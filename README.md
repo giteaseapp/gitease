@@ -1,4 +1,6 @@
-# GitEase
+<div align="center">
+    <img src=".github/assets/img/gitease-logo.png" alt="gitease Logo">
+</div>
 
 A free, open-source, cross-platform Git repository manager built for speed and simplicity.
 
@@ -41,7 +43,8 @@ gitease/
 
 | Name | Role | GitHub |
 |------|------|--------|
-| Your Name | Creator & Maintainer | [@yourhandle](https://github.com/yourhandle) |
+| Guilherme | Creator & Maintainer | [@guilhermedelrio](https://github.com/guilhermedelrio) |
+| Paulo | Creator & Maintainer | [@paulonnn](https://github.com/paulonnn) |
 
 ## License
 
