@@ -52,6 +52,46 @@ gitease/
 - `apps/desktop/frontend` — Shared Svelte component library
 - `packages/git-core` — Standalone Rust crate for Git operations
 
+## Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) v18+
+- [pnpm](https://pnpm.io/) v9+ — `npm install -g pnpm`
+- [Rust](https://rustup.rs/) (stable toolchain) — `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
+- Tauri system dependencies for your OS — see [Tauri Prerequisites](https://tauri.app/start/prerequisites/)
+
+### Install dependencies
+
+```bash
+# From the repo root
+pnpm install
+```
+
+### Run in development
+
+```bash
+# From apps/desktop/ — starts the Vite dev server + Tauri window
+cd apps/desktop
+pnpm dev
+```
+
+### Build for production
+
+```bash
+# From apps/desktop/
+cd apps/desktop
+pnpm build
+```
+
+### Rust checks (no frontend needed)
+
+```bash
+# From repo root
+cargo check                 # check all crates
+cargo test -p git-core      # run git-core tests
+```
+
 ## Team
 
 | Name | Role | GitHub |

@@ -1,0 +1,29 @@
+{
+  "productName": "gitease",
+  "version": "0.0.1",
+  "identifier": "com.gitease.app",
+  "build": {
+    "beforeDevCommand": "pnpm -C frontend dev",
+    "devUrl": "http://localhost:5173",
+    "beforeBuildCommand": "pnpm -C frontend build",
+    "frontendDist": "frontend/build"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "Gitease",
+        "width": 1280,
+        "height": 800,
+        "resizable": true
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": []
+  }
+}
