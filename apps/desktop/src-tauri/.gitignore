@@ -1,0 +1,9 @@
+# Tauri generated files
+gen/
+WixTools/
+
+# Compiled binary
+target/
+
+# OS
+.DS_Store

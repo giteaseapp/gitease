@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "packages/git-core",
+    "apps/desktop/src-tauri",
+]
+resolver = "2"
